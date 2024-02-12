@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUY NOW FOR YOUR FUTURE!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://public.bnbstatic.com/static/academy/uploads-original/9b8912b153014dd988ffafd79cbd695b.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.9); /* Прозрачный белый цвет */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .coin-info {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .coin-info h2 {
+            margin-top: 0;
+        }
+        .coin-info p {
+            margin-bottom: 10px;
+        }
+        .coin-image {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>BUY NOW FOR YOUR FUTURE!</h1>
+        <div class="coin-info">
+            <img src="https://cimg.co/news/113265/274171/responsive-images/best-meme-coins___media_library_original_1302_831.jpg" alt="Coin Image" class="coin-image">
+            <h2>VALENTION MEM COIN</h2>
+            <p>Валентион монета самая лучшая из всех купив ее вы обеспечите будущее себе и нам в особенности.</p>
+            <p>Price: 1 XYZ = $10</p>
+            <p>Market Cap: $1,000,000</p>
+            <p>Total Supply: 100,000 XYZ</p>
+            <p>Token Type: BEP-20</p>
+            <button class="buy-button" onclick="buyCoin()">Buy Now</button>
+        </div>
+    </div>
+
+    <script>
+        function buyCoin() {
+            // Здесь можно добавить логику покупки монеты
+            alert('Thank you for your purchase!');
+        }
+    </script>
+</body>
+</html>
